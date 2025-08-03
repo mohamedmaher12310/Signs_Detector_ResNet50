@@ -27,29 +27,29 @@ The code assumes a dataset loaded via resnets_utils.py (not provided here). Repl
 
 🏷 Usage
 1. Model Initialization
-
+```bash
 model = ResNet50(input_shape=(64, 64, 3), classes=6)
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-
+```
 2. Data Preparation
-
+```bash
 # Example: Normalize and one-hot encode
 X_train = X_train_orig / 255.0
 Y_train = convert_to_one_hot(Y_train_orig, 6).T
-
+```
 3. Training
-
+```bash
 model.fit(X_train, Y_train, epochs=5, batch_size=32)
-
+```
 4. Evaluation
-
+```bash
 preds = model.evaluate(X_test, Y_test)
 print(f"Test Accuracy: {preds[1] * 100:.2f}%")
-
+```
 5. Model Summary
-
+```bash
 model.summary()  # Prints architecture details
-
+```
 📂 Code Structure
 
 identity_block(X, f, filters, stage, block):
