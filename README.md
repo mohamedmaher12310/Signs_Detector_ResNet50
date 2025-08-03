@@ -65,11 +65,11 @@ Builds the full ResNet-50 model with 5 stages.
 
 📊 Example Output
 
-number of training examples = 1080
-number of test examples = 120
-X_train shape: (1080, 64, 64, 3)
-Y_train shape: (1080, 6)
-Test Accuracy: 85.42%
+number of training examples = 1080  
+number of test examples = 120  
+X_train shape: (1080, 64, 64, 3)  
+Y_train shape: (1080, 6)  
+Test Accuracy: 85.42%  
 
 📜 Model Architecture
 
