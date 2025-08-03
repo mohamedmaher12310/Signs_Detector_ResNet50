@@ -71,19 +71,18 @@ X_train shape: (1080, 64, 64, 3)
 Y_train shape: (1080, 6)  
 Test Accuracy: 85.42%  
 
-📜 Model Architecture
+## 📜 Model Architecture
 
-____________________________________________________________________________________________________
-Layer (type)                   Output Shape         Param #     Connected to                     
-====================================================================================================
-input_1 (InputLayer)           (None, 64, 64, 3)    0                                            
-...
-avg_pool (AveragePooling2D)    (None, 1, 1, 2048)   0           activation_49[0][0]              
-fc6 (Dense)                    (None, 6)            12294       flatten_1[0][0]                  
-====================================================================================================
-Total params: 23,600,006
-Trainable params: 23,546,886
-Non-trainable params: 53,120
+| Layer (type)                | Output Shape      | Param # | Connected to               |
+|-----------------------------|-------------------|---------|----------------------------|
+| input_1 (InputLayer)        | (None, 64, 64, 3) | 0       | -                          |
+| ...                         | ...               | ...     | ...                        |
+| avg_pool (AveragePooling2D) | (None, 1, 1, 2048)| 0       | activation_49[0][0]        |
+| fc6 (Dense)                 | (None, 6)         | 12,294  | flatten_1[0][0]            |
+
+Total params: 23,600,006  
+Trainable params: 23,546,886  
+Non-trainable params: 53,120  
 
 🤝 Contributing
 
