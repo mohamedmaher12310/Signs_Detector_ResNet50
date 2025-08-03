@@ -1,13 +1,9 @@
 # Signs_Detector_ResNet50
 This project implements ResNet-50, a deep convolutional neural network (CNN) architecture, for image classification. ResNet-50 is a variant of the Residual Network (ResNet) family, known for its use of skip connections (identity blocks) to mitigate the vanishing gradient problem in deep networks.
 
-![Image Calssifier](D:/MY STUDY/Signs_Detector_ResNet50/images/signs_data_kiank.png)
+!["Hello"]("D:\\MY STUDY\\Signs_Detector_ResNet50\\images\\signs_data_kiank.png")
 
-<p align="center">
-  <img src="D:/MY STUDY/Signs_Detector_ResNet50/images/signs_data_kiank.png" alt="ResNet-50 Layers" width="600"/>
-  <br>
-  <em>ResNet-50 Layer Structure with 5 Stages</em>
-</p>
+
 # ResNet-50 Image Classification
 
 ## 📌 Overview
