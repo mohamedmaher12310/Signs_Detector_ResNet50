@@ -1,7 +1,7 @@
 # Signs_Detector_ResNet50
 This project implements ResNet-50, a deep convolutional neural network (CNN) architecture, for image classification. ResNet-50 is a variant of the Residual Network (ResNet) family, known for its use of skip connections (identity blocks) to mitigate the vanishing gradient problem in deep networks.
 
-
+![Image Calssifier](D:/MY STUDY/Signs_Detector_ResNet50/images/signs_data_kiank.png)
 # ResNet-50 Image Classification
 
 ## 📌 Overview
@@ -21,7 +21,7 @@ Ensure you have the following installed:
 ```bash
 pip install numpy tensorflow keras matplotlib scipy pydot ipythonDataset
 The code assumes a dataset loaded via resnets_utils.py (not provided here). Replace with your dataset or ensure load_dataset() and convert_to_one_hot() are defined.
-
+```
 Dataset
 The code assumes a dataset loaded via resnets_utils.py (not provided here). Replace with your dataset or ensure load_dataset() and convert_to_one_hot() are defined.
 
