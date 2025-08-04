@@ -64,7 +64,7 @@ ResNet50(input_shape, classes):
 Builds the full ResNet-50 model with 5 stages.
 
 ![Signs_Detector_ResNet50](images/resnet_kiank.png)  
-<img src="images/resnet_kiank.png" alt="Logo" width="200"/>  
+
 📊 Example Output
 
 number of training examples = 1080  
