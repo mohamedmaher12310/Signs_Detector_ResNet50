@@ -63,7 +63,7 @@ Implements the convolutional block with a stride s for downsampling.
 ResNet50(input_shape, classes):
 Builds the full ResNet-50 model with 5 stages.
 
-![Signs_Detector_ResNet50](D:/MY STUDY/Signs_Detector_ResNet50/images/resnet_kiank.png)  
+![Signs_Detector_ResNet50](images/resnet_kiank.png)  
 <img src="D:\MY STUDY/Signs_Detector_ResNet50/images/resnet_kiank.png" alt="Logo" width="200"/>  
 📊 Example Output
 
